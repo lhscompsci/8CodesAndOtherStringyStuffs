@@ -72,3 +72,9 @@ else:
     # replace       aStr.replace(old, new)
 
     # Be sure to include multiple examples of all of them in use
+
+# Character functions
+
+print(chr(75))
+print(ord('&'))
+
