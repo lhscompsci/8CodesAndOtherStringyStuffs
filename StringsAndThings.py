@@ -78,3 +78,7 @@ else:
 print(chr(75))
 print(ord('&'))
 
+from mapper import *
+print(letterToIndex('M'))
+
+print(indexToLetter(44))
