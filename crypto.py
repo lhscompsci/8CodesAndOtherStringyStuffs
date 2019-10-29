@@ -2,6 +2,7 @@
 
 # encryption function
 def scramble2Encrypt(plainText):
+    # stripSpaces(plainText)
     evenChars = ""
     oddChars = ""
     charCount = 0
@@ -29,3 +30,5 @@ def scramble2Decrypt(cipherText):
         plainText = plainText + evenChars[-1]
 
     return plainText
+
+# write a stripSpaces(text) function here
