@@ -32,3 +32,6 @@ def scramble2Decrypt(cipherText):
     return plainText
 
 # write a stripSpaces(text) function here
+
+# write a caesarEncrypt(plainText, shift)
+# write a caesarDecrypt(cipherText, shift)
